@@ -1,0 +1,30 @@
+/* selector por etiqueta html */
+body{
+  background-color: #ccc;
+}
+
+#imgBanner{
+  width: 100%;
+}
+
+#hTitulo{
+  height: 150px;
+  border: 10px solid black;
+  padding: 40px;
+  margin: 40px;
+}
+
+/*selector por clase */
+.centrado{
+  text-align: center;
+}
+
+/* selector por etiquetra anidada */
+em strong{
+  color: red;
+}
+
+/*selector por id */
+#mision{
+  font-size: 20px;
+}
