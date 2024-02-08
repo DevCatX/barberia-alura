@@ -1,18 +1,30 @@
-/* selector por etiqueta html */
+/* selector por etiqueta html
 body{
   background-color: #ccc;
+}
+*/
+
+.titulo-principal{
+  padding-left: 40px;
 }
 
 #imgBanner{
   width: 100%;
 }
 
+.principal{
+  background-color: #ccc;
+  padding: 20px;
+}
+
+/*
 #hTitulo{
   height: 150px;
   border: 10px solid black;
   padding: 40px;
   margin: 40px;
 }
+*/
 
 /*selector por clase */
 .centrado{
@@ -27,4 +39,24 @@ em strong{
 /*selector por id */
 #mision{
   font-size: 20px;
+}
+
+.diferenciales{
+  background-color: white;
+  padding: 30px;
+}
+
+.liItems{
+  font-style: italic;
+}
+
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+
+.imgDiferencial{
+  width: 50%;
 }
