@@ -1,0 +1,29 @@
+header {
+  background-color: #bbb;
+  padding: 20 0;
+}
+
+.caja{
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 0 0 25px; /* espaciamiento entre elementos a la izquierda */
+}
+
+nav ul li a {
+  text-transform: uppercase; /* convierte texto a mayusculas */
+  color: black;  /* color del texto */
+  font-weight: bold;  /* negrita al texto */
+  font-size: 22px;  /* tamaño del texto */
+  text-decoration: none;  /* decoracion del texto */
+}
