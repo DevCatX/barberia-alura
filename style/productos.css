@@ -27,3 +27,31 @@ nav ul li a {
   font-size: 22px;  /* tamaño del texto */
   text-decoration: none;  /* decoracion del texto */
 }
+
+.productos{
+  width: 940px;
+  margin: 0 auto;
+}
+
+.productos li{
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+}
+
+.productos li h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.pDescripcion{
+  font-size: 18px;
+}
+
+.pPrecio{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+
+}
