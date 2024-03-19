@@ -28,9 +28,15 @@ nav ul li a {
   text-decoration: none;  /* decoracion del texto */
 }
 
+nav ul li a:hover{
+  color: #c78c19;
+  text-decoration: underline;
+}
+
 .productos{
-  width: 940px;
+  width: 940px; /* ancho de la pantalla */
   margin: 0 auto;
+  padding: 50px;
 }
 
 .productos li{
@@ -38,11 +44,28 @@ nav ul li a {
   text-align: center;
   width: 30%;
   vertical-align: top;
+  margin: 1.5%;
+  padding: 30px 20px;
+  box-sizing: border-box; /* el espacio del padding se tomara del 30% de cada caja */
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.productos li:hover{
+  border: 2px solid #c78c19;
+}
+
+.productos li:active{
+  border: 2px solid green;
 }
 
 .productos li h2{
   font-size: 30px;
   font-weight: bold;
+}
+
+.productos li:hover h2{ /* cuando este dentro de li que solo afecte a h2 */
+  font-size: 33px;
 }
 
 .pDescripcion{
@@ -54,4 +77,17 @@ nav ul li a {
   font-weight: bold;
   margin-top: 10px;
 
+}
+
+footer{
+  text-align: center;
+  background: url(../img/bg.jpg);
+  padding: 40px;
+
+}
+
+.copyright{
+  color: white;
+  font-size: 13px;
+  margin: 20px;
 }
